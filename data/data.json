@@ -1,0 +1,171 @@
+[
+    {
+      "nome": "Território CDHU",
+      "numero": 1,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1BBxiiCY3QHuh_03GOhq3XvidY775-DA&usp=sharing",
+      "imagemUrl": "./public/img/territory/1.jpeg",
+      "ruas": ["Bloco 1", "Bloco 2", "Bloco 3", "Bloco 4"]
+    },
+    {
+      "nome": "Território 2 - Jd Paraty",
+      "numero": 2,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1WZgPX4xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-norte.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 3 - Jd Paraty",
+      "numero": 3,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1mln4oN1b5GhKqfDSyELDO-wpDujqZDs&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-leste.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 4 - Belvedere Bandeirantes",
+      "numero": 4,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1zNiW_ZPN5Y-A4AzhXEqC9KhuHd3GJWo&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-sul.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 5 - Chico Neca",
+      "numero": 5,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1qnl6hvs_0xYW87pb7Qhx-KNwBDfG7so&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-oeste.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 6 - Chico Neca",
+      "numero": 6,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1hBZmCOIEOoXWNIImU8OPCq8vanKXucw&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-norte.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 7 - Polo Clube",
+      "numero": 7,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=19JIO0H7g05pnIRc9UtiDe9bI6LRfP5E&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-centro.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 8 - Polo Clube",
+      "numero": 8,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1WUPjTnnasAUOINoyL9NtBZziVc8TuJg&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-nova.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 9 - Polo Clube",
+      "numero": 9,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1hsdjRhImm9gghdVaR7KBSzVUWmposqg&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-paulo.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 10 - Polo Clube",
+      "numero": 10,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1yOD9u-IIHl4KSxtqIJ_Cll7aaR9rCm0&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-jorge.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 11 - Polo Clube",
+      "numero": 11,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1TfsX2nZGdQd5B5HKnKFqWrMzyMJXPpw&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-pedro.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 12 - Residencial Zanetti",
+      "numero": 12,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1ZHjq0UFyx_5sLG5EaipgXMRNnszZzSE&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-miguel.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 13 - Residencial Zanetti",
+      "numero": 13,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1v3EzOX4uSJT0taBVmjVRgFEYc3SfoQ0&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-sebastiao.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 14 - Residencial Zanetti",
+      "numero": 14,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1t_FM8mBt0RPMoKCcB8cb4aGdBXff4gk&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-sao-vicente.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    }, 
+    {
+      "nome": "Território 15 - Residencial Zanetti",
+      "numero": 15,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1Y1FuTmwLQ9QpFB-G5bWA0jI0BrZyMUk&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 16 - Residencial Zanetti",
+      "numero": 16,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1vRgkNa929qbJmLRUihLiw47DISd4rkQ&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-2.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "TTerritório 17 - Residencial Zanetti",
+      "numero": 17,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=10ApS5XbRGYJb0WBd4icCsSKJzKbJrb4&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-3.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território 18 - Residencial Zanetti",
+      "numero": 18,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1ak0AYbuyvNwrET7x7t10sGZD8J-FaMc&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-4.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 5",
+      "numero": 19,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-5.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 6",
+      "numero": 20,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-6.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 7",
+      "numero": 21,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-7.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 8",
+      "numero": 22,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-8.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 9",
+      "numero": 23,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-9.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    },
+    {
+      "nome": "Território Vila Verde 10",
+      "numero": 24,
+      "mapaUrl": "https://www.google.com/maps/d/edit?mid=1m2g0v3xTj2JtYktyZnBlCWaZ24sh2Ro&usp=sharing",
+      "imagemUrl": "https://exemplo.com/imagens/territorio-vila-verde-10.jpg",
+      "ruas": ["Quadra 1", "Quadra 2", "Quadra 3", "Quadra 4","Quadra 5","Quadra 6"]
+    }
+  ]
+  

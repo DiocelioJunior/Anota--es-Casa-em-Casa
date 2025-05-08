@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Note Web App</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./public/css/style.css" />
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- Firebase Compat (Database) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>N+</h1>
+      </div>
+      <div class="text-user">
+        <h2>Olá, <span id="user-name">Usuário</span></h2>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="calendar" id="calendar">
+        <!-- Calendar will be generated here -->
+      </div>
+      <div class="details" id="details">
+
+      </div>
+      <div class="houseNumbersList" id="houseNumbersList">
+
+      </div>
+
+    </section>
+  </main>
+
+
+  <script src="./public/js/details.js"></script>
+  <script src="/public/js/calendar.js"></script>
+</body>
+
+</html>

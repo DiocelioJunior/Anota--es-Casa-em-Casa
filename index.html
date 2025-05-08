@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Web App</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/public/css/style.css">
+    <!--Link Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add,delete" />
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <h1>N+</h1>
+        </div>
+        <div class="text-user">
+            <h2>Olá, <span id="user-name">Usuário</span></h2>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="container">
+        <div class="calendar" id="calendar">
+            <!-- Calendar will be generated here -->
+        </div>
+
+        <div class="card-ads">
+
+        </div>
+
+        <div class="card-notes">
+            <button id="add-note-btn" onclick="toggleCardForm()"><span class="material-symbols-outlined">add</span>Novo Relatorio</button>   
+        </div>
+
+        <div id="reportsContainer" class="cards-wrapper">
+            <!-- Relatórios serão gerados aqui -->
+        </div>
+
+
+    </section>
+
+    <!--Formulario Novo Relatorio-->
+    <div class="card-form" id="cardForm">
+        <form id="reportForm">
+            <div class="line_div">
+                <div class="line"></div>
+            </div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+            
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required value="<?= date('Y-m-d') ?>">
+            
+            <label for="territory">Selecione o Território:</label>
+            <select id="territory" name="territory" required>
+    
+            </select>  
+            
+            <label for="street">Selecione a Rua:</label>
+            <select id="street" name="street" required>
+                <option value="" disabled selected>Escolha uma rua</option>
+            </select>
+            
+        
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+
+</main>
+
+<script src="/public/js/script.js"></script>
+<script src="/public/js/data.js"></script>
+<script src="/public/js/calendar.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const territorySelect = document.getElementById('territory');
+        const streetSelect = document.getElementById('street');
+
+        // Fetch data from the JSON file
+        fetch('../data/data.json')
+            .then(response => response.json())
+            .then(data => {
+                // Populate the territory select
+                data.forEach(territory => {
+                    const option = document.createElement('option');
+                    option.value = territory.nome;
+                    option.textContent = territory.nome;
+                    territorySelect.appendChild(option);
+                });
+
+                // Update streets based on selected territory
+                territorySelect.addEventListener('change', () => {
+                    const selectedTerritory = territorySelect.value;
+
+                    // Clear previous street options
+                    streetSelect.innerHTML = '<option value="" disabled selected>Escolha uma rua</option>';
+
+                    // Find the selected territory and populate streets
+                    const territory = data.find(t => t.nome === selectedTerritory);
+                    if (territory) {
+                        territory.ruas.forEach(street => {
+                            const option = document.createElement('option');
+                            option.value = street;
+                            option.textContent = street;
+                            streetSelect.appendChild(option);
+                        });
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+    });
+</script>
+
+</body>
+</html>
